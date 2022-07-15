@@ -127,6 +127,7 @@ body {
 /* Our Donate Plan Section */
 .text-area-3{
     text-align: center;
+    margin-top: 120px;
 }
 .heading-3{
     font-size: 30px;
@@ -136,12 +137,50 @@ body {
     width: 590px;
   margin-left: 370px;
 }
+.plan-box-area{
+    display: flex;
+    margin-left: 70px;
+}
 .plan-box{
-    
+    padding-top: 50px;
+    padding-left: 20px;
 }
 .plan-box-1{
     background-color: rgba(79, 157, 166, 0.1);
     width: 360px;
     height: 352px;
     border-radius: 5px;
+    margin: 20px;
+}
+.heading-4>h2{
+    font-weight: 500;
+}
+.pra-4{
+    width: 300px;
+}
+.plan-box-2{
+    background-color: rgba(255, 89, 89, 0.1);
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.heading-5>h2{
+    font-weight: 500;
+}
+.pra-5{
+    width: 300px;
+}
+.plan-box-3{
+    background-color: rgba(255, 244, 214, 1);
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.heading-6>h2{
+    font-weight: 500;
+}
+.pra-6{
+    width: 300px;
 }
