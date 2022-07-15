@@ -1,128 +1,147 @@
 /* Body Section */
 
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Header Section */
-.header{
-    background-image: url(images/donation10.jpg);
-    background-size: 1440px;
-    height: 680px;
+.header {
+  background-image: url(images/donation10.jpg);
+  background-size: 1440px;
+  height: 669px;
 }
 
-.gradient{
-    background-size: 1440px;
-    height: 680px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, .4),rgba(0, 0, 0, .7),rgba(0, 0, 0, 1));
+.gradient {
+  background-size: 1440px;
+  height: 669px;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 1)
+  );
 }
 
-.text-area-1{
-    position: absolute;
-    width: 620px;
-    height: 400px;
-    margin: 180px;
-    margin-left: 380px;
-    text-align: center;
-    color: white;
+.text-area-1 {
+  position: absolute;
+  width: 620px;
+  height: 400px;
+  margin: 180px;
+  margin-left: 380px;
+  text-align: center;
+  color: white;
 }
-.heading-1{
-    font-size: 30px;
-    
+.heading-1 {
+  font-size: 30px;
 }
-.pra-1>p{
-    width: 500px;
-   margin-left: 60px;
-}
-
-.btn-1{
-    margin-top: 60px;
+.pra-1 > p {
+  width: 500px;
+  margin-left: 60px;
 }
 
-.btn-1>a{
-    text-decoration: none;
-    background-color: tomato;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 5px;
-    
+.btn-1 {
+  margin-top: 60px;
+}
 
+.btn-1 > a {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 /* Donate Today Section */
-.text-area-2{
-    text-align: center;
-    
+.text-area-2 {
+  text-align: center;
 }
-.heading-2{
-    font-size: 30px;
-    font-weight: 700;
+.heading-2 {
+  font-size: 30px;
+  font-weight: 700;
 }
-.pra-2{
-    width: 590px;
-    margin-left: 370px;
-   
+.pra-2 {
+  width: 590px;
+  margin-left: 370px;
 }
-.money-area{
-    display: flex;
-    margin: 40px 0 0 280px;
+.money-area {
+  display: flex;
+  margin: 40px 0 0 280px;
 }
 
-.money-box{
-    width: 135px;
-    height: 123px;
-    background-color: aliceblue;
-    margin-left: 20px;
-    border-radius: 5px;
+.money-box {
+  width: 135px;
+  height: 123px;
+  background-color: aliceblue;
+  margin-left: 20px;
+  border-radius: 5px;
 }
-.taka{
-    font-size: 30px;
-    font-weight: 700;
-   display: inline-block;
-   text-align: center;
-   width: 140px;
-   padding-top: 40px;
-   color: #707070;
+.taka {
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  width: 140px;
+  padding-top: 40px;
+  color: #707070;
 }
-.box-2{
-    border: 2px solid #FF5959;
-    background-color: #FFEEEE;
+.box-2 {
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
 }
 
-.taka-input{
-    display: block;
-    text-align: center;
-    margin-top: 50px;
-    
+.taka-input {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
 }
-.taka-input>input{
-    width: 763px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #DADADA;
+.taka-input > input {
+  width: 763px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dadada;
 }
 
 .taka-input ::placeholder {
-   text-align: center;
-   font-family: 'Poppins', sans-serif;
-   color: #B3B3B3;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #b3b3b3;
 }
-.btn-2{
-    display: block;
+.btn-2 {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn-2 > a {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Our Donate Plan Section */
+.text-area-3{
     text-align: center;
-    margin-top: 40px;
 }
-
-.btn-2>a{
-    text-decoration: none;
-    background-color: tomato;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 5px;
+.heading-3{
+    font-size: 30px;
+  font-weight: 700;
+}
+.pra-3{
+    width: 590px;
+  margin-left: 370px;
+}
+.plan-box{
     
-
+}
+.plan-box-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
 }
