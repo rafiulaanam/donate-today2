@@ -56,6 +56,7 @@ body {
 /* Donate Today Section */
 .text-area-2 {
   text-align: center;
+  margin-top: 100px;
 }
 .heading-2 {
   font-size: 30px;
@@ -125,62 +126,135 @@ body {
 }
 
 /* Our Donate Plan Section */
-.text-area-3{
-    text-align: center;
-    margin-top: 120px;
+.text-area-3 {
+  text-align: center;
+  margin-top: 120px;
 }
-.heading-3{
-    font-size: 30px;
+.heading-3 {
+  font-size: 30px;
   font-weight: 700;
 }
-.pra-3{
-    width: 590px;
+.pra-3 {
+  width: 590px;
   margin-left: 370px;
 }
-.plan-box-area{
+.plan-box-area {
+  display: flex;
+  margin-left: 70px;
+}
+.plan-box {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.plan-box-1 {
+  background-color: rgba(79, 157, 166, 0.1);
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.heading-4 > h2 {
+  font-weight: 500;
+}
+.pra-4 {
+  width: 300px;
+}
+.plan-box-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.heading-5 > h2 {
+  font-weight: 500;
+}
+.pra-5 {
+  width: 300px;
+}
+.plan-box-3 {
+  background-color: rgba(255, 244, 214, 1);
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.heading-6 > h2 {
+  font-weight: 500;
+}
+.pra-6 {
+  width: 300px;
+}
+
+/* Their lives depend on your donation */
+.depend-section{
     display: flex;
     margin-left: 70px;
+    margin-top: 100px;
 }
-.plan-box{
-    padding-top: 50px;
-    padding-left: 20px;
+.text-area-4{
+width: 40%;
 }
-.plan-box-1{
-    background-color: rgba(79, 157, 166, 0.1);
-    width: 360px;
-    height: 352px;
-    border-radius: 5px;
-    margin: 20px;
+.heading-7 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+.pra-7{
+    width: 480px;
 }
-.heading-4>h2{
+.btn-3{
+    margin-top: 50px;
+}
+.btn-3 > a {
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
     font-weight: 500;
-}
-.pra-4{
-    width: 300px;
-}
-.plan-box-2{
-    background-color: rgba(255, 89, 89, 0.1);
-    width: 360px;
-    height: 352px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 20px;
+   
+  }
+.img-1>img{
+    width: 380px;
+    height: 420px;
+    margin-left: 120px;
+border-radius: 5px;
 }
-.heading-5>h2{
+
+/* They need us to suvive */
+.depend-section-2{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.img-2>img{
+    width: 380px;
+    height: 420px;
+    margin-top: 50px;
+    
+border-radius: 5px;
+}
+
+.text-area-5{
+width: 40%;
+margin-left: 240px;
+}
+.heading-8 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+.pra-8{
+    width: 480px;
+}
+.btn-4{
+    margin-top: 50px;
+}
+.btn-4 > a {
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
     font-weight: 500;
-}
-.pra-5{
-    width: 300px;
-}
-.plan-box-3{
-    background-color: rgba(255, 244, 214, 1);
-    width: 360px;
-    height: 352px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 20px;
-}
-.heading-6>h2{
-    font-weight: 500;
-}
-.pra-6{
-    width: 300px;
-}
+   
+  }
